@@ -1,0 +1,18 @@
+{
+  "transform": {
+    "user_id": "uuid_to_int",
+    "manager_id": "uuid_to_int",
+    "name": "redact",
+    "email_address": "redact",
+    "start_date": "convert_timestamp",
+    "last_login": "convert_timestamp"
+  },
+  "columns": [
+    "last_login",
+    "start_date",
+    "email_address",
+    "name",
+    "manager_id",
+    "user_id"
+  ]
+}
